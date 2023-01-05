@@ -1,0 +1,19 @@
+{
+  "name": "fnbr-development-test",
+  "version": "1.0.0",
+  "description": "Hello there candidate! welcome to the development test for the position of junior web developer for CT Funiber Ecuador. We present you a simple challenge of a web form development that will receive some data detailed below, store it and send it by mail.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanxinho/fnbr-development-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanxinho/fnbr-development-test/issues"
+  },
+  "homepage": "https://github.com/juanxinho/fnbr-development-test#readme"
+}

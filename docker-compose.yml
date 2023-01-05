@@ -3,7 +3,7 @@ version: '3'
 services:
     code.dev:
         build:
-            context: ./docker
+            context: .
             dockerfile: Dockerfile
         container_name: candidate_evaluation
         extra_hosts:
@@ -11,8 +11,11 @@ services:
         ports:
             - '${APP_PORT:-80}:80'
             - '${APP_SSL_PORT:-443}:443'
+        
         volumes:
             - '.:/app'
+        
+
         networks:
             - sail
         depends_on:
